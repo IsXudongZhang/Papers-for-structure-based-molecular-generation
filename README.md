@@ -1,4 +1,4 @@
-# Review for structure based drug de novo design
+# Papers for structure based drug de novo design
 
 ## 1. Structure-based
 
