@@ -1,4 +1,4 @@
-# Papers for structure based drug de novo design
+# Papers for structure-based molecular generation
 
 ## 1. Structure-based
 
