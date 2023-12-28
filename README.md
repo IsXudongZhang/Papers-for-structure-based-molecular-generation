@@ -1,15 +1,15 @@
 # Papers for structure-based molecular generation
 
-## 1. Structure-based
+## Contents
 
-[1.  arXiv 2023 PrefixMol: Target- and Chemistry-aware Molecule Design via Prefix Embedding ](#1.)
+[1.  **arXiv 2023** PrefixMol: Target- and Chemistry-aware Molecule Design via Prefix Embedding ](#1.)
 
 
 
 
 <br>
 
-### <a id="1."> <span style="color: red;">arXiv 2023</span> PrefixMol: Target- and Chemistry-aware Molecule Design via Prefix Embedding</a>  
+### <a id="1."> **arXiv 2023** PrefixMol: Target- and Chemistry-aware Molecule Design via Prefix Embedding</a>  
 
 **Motivation**: 
 Is there a unified model for generating molecules considering different conditions, such as binding pockets and chemical properties? Although targetaware generative models have made significant advances in drug design, they do not consider chemistry conditions and cannot guarantee the desired chemical properties. Unfortunately, merging the target-aware and chemical-aware models into a unified model to meet customized requirements may lead to the problem of negative transfer.
