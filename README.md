@@ -7,7 +7,6 @@
 
 
 
-<br>
 
 ### <a id="1."> **arXiv 2023** PrefixMol: Target- and Chemistry-aware Molecule Design via Prefix Embedding</a>  
 
