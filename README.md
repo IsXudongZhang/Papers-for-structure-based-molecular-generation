@@ -1,4 +1,4 @@
-# Papers of structure-based molecular generation
+# Papers for structure-based molecular generation
 
 ## Contents
 
