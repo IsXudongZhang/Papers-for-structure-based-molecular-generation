@@ -1,7 +1,5 @@
 # Review for structure based drug de novo design
 
-# <a id="top">Molecular Generation</a>  
-
 ## 1. Structure-based
 
 [1.  <span style="color: red;">arXiv 2023</span>  PrefixMol: Target- and Chemistry-aware Molecule Design via Prefix Embedding ](#1.)
