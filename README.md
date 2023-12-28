@@ -1,1 +1,1 @@
-# Review-for-structure-based-drug-de-novo-design
+# Review for structure based drug de novo design
