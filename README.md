@@ -2,13 +2,10 @@
 
 ## Contents
 
----
-Date: 2023
-Journal: arXiv
-Title: "PrefixMol: Target- and Chemistry-aware Molecule Design via Prefix Embedding ](#1.)"
-excerpt: "About me"
+| Date | Journal | Title | Others |
+| ---- | ---- | ---- | ---- |
+| 2023 | arXiv | PrefixMol: Target- and Chemistry-aware Molecule Design via Prefix Embedding ](#1.)| 
 
----
 
 [1.  **arXiv 2023** || 
 
