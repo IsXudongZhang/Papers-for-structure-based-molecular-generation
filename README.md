@@ -2,7 +2,15 @@
 
 ## Contents
 
-[1.  **arXiv 2023** || PrefixMol: Target- and Chemistry-aware Molecule Design via Prefix Embedding ](#1.)
+---
+Date: 2023
+Journal: arXiv
+Title: "PrefixMol: Target- and Chemistry-aware Molecule Design via Prefix Embedding ](#1.)"
+excerpt: "About me"
+
+---
+
+[1.  **arXiv 2023** || 
 
 
 
