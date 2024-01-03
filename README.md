@@ -5,7 +5,7 @@
 | Date | Journal | Title | Code | Remark |
 | ---- | ---- | ---- | ---- | ---- |
 | 2023 | arXiv | [PrefixMol: Target- and Chemistry-aware Molecule Design via Prefix Embedding](#1.) |  | Controllable generation | 
-| 2023 | ICML | [DECOMPDIFF: Diffusion Models with Decomposed Priors for Structure-Based Drug Design](#2.) | https://github. com/bytedance/DecompDiff  | Diffusion model | 
+| 2023 | ICML | [DECOMPDIFF: Diffusion Models with Decomposed Priors for Structure-Based Drug Design](#2.) | https://github.com/bytedance/DecompDiff  | Diffusion model | 
 
 
 
