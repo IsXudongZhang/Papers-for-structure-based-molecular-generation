@@ -33,17 +33,17 @@ Experiments show that PrefixMol exhibits good controllability in both single and
 ---
 ### <a id="2."> **ICML 2023** || DECOMPDIFF: Diffusion Models with Decomposed Priors for Structure-Based Drug Design</a>  
 **Motivation**:
-*  **Why is Diffusion**: Autoregressive models suffer from error accumulation and require a generation order, which is nontrivial for molecular graphs. Diffusion model-based methods can model local and global interactions between atoms simultaneously and achieve better performance than autoregressive models.
+*  **Why is Diffusion**: Auto-regressive models suffer from **error accumulation and require a generation order**, which is nontrivial for molecular graphs. Diffusion model-based methods can model local and global interactions between atoms simultaneously and achieve better performance than autoregressive models.
 *  **Why is decomposed priors**:
-    - Existing diffusion model-based approaches neglect bonds in the modeling process, which may lead to unreasonable molecular structures.
-    - Moreover, diffusion model-based approaches treat the ligand molecule as a whole and learn the overall correspondence between the target binding site and the ligand. However, atoms within the same ligand can be designed for different functions. Therefore, treating all ligand atoms equally may not be the best way for SBDD, especially considering the tremendous drug-like space to explore and the limited amount of high quality target-ligand complexes  for training.
+    - Existing diffusion model-based approaches **neglect bonds** in the modeling process, which may lead to unreasonable molecular structures.
+    - Diffusion model-based approaches treat the ligand molecule as a whole and learn the overall correspondence between the target binding site and the ligand. However, atoms within the same ligand can be designed for different functions. Therefore, **treating all ligand atoms equally may not be the best way for SBDD**, especially considering the tremendous drug-like space to explore and the limited amount of high quality target-ligand complexes  for training.
 
 
 
 **Contibution**:
-* Authors propose a diffusion model with decomposed priors for structure-based drug design, which incorporates the natural decomposition of a ligand molecule into function-related regions.
-* Authors consider both atom and bond diffusion processes in the model to simultaneously generate atoms and bonds for improving drug-likeness and synthesizability.
-* Authors design and incorporate several guidance terms in the decomposed generation process to improve the molecular validity.
+* Authors propose a diffusion model with decomposed priors for structure-based drug design, which **incorporates the natural decomposition of a ligand molecule into function-related regions**.
+* Authors **consider both atom and bond diffusion processes** in the model to simultaneously generate atoms and bonds for improving drug-likeness and synthesizability.
+* Authors design and incorporate several **guidance terms** in the decomposed generation process to improve the molecular validity.
 
 **Results**:
 Extensive experiments on CrossDocked2020 show that DecompDiff achieves SOTA performance in generating high-affinity molecules while maintaining proper molecular properties and conformational stability, with up to −8.39 Avg. Vina Dock score and 24.5% Success Rate. 
