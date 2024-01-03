@@ -2,7 +2,7 @@
 
 ## Contents
 
-| Date | Journal | Title | Others |
+| Date | Journal | Title | Remark |
 | ---- | ---- | ---- | ---- |
 | 2023 | arXiv | [PrefixMol: Target- and Chemistry-aware Molecule Design via Prefix Embedding](#1.) | Controllable generation | 
 
