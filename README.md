@@ -53,3 +53,31 @@ Extensive experiments on CrossDocked2020 show that DecompDiff achieves SOTA perf
 [Go To Top](#top)
 
 <br>
+
+---
+### <a id="3."> **arXiv 2022** || DiffBP: Generative Diffusion of 3D Molecules for Target Protein Binding</a>  
+**Motivation**:
+*  **The challenge of SBDD tasks**: 
+ - The protein binding site as the conditional context is complicated. Not only do the 3D geometric structures of the target proteins influence the structure and property of the binding molecules, but also other informative contexts should be considered for generating molecules with high affinities, such as the amino acid types.
+ - The desired distribution over molecular chemistry and coordinates has enormous support sets. Unlike the conformation generation task, the chemical formulas as 2D graph constraints are not known, so the sophisticated coupling of element types, continuous 3D coordinates, and other chemical properties or geometries should be captured by a well-designed model.
+ - Geometric symmetries of molecules should be considered for generalization. In the physical 3D space, these symmetries include translations and rotations from the Euclidean group. In particular, if we perform these symmetry operations on a binding site, the generated molecules are expected to be rotated or translated in the same way.
+   
+*  **The disadvantage of auto-regressive methods**:  
+  - The interactions among atoms in an entire molecule are global, leading to the energy function pair-coupled among atoms. With such energy-based consideration, the modeling of probability should be based on joint distributions, rather than sequentially conditional ones. In other words, each atom’s position and element type are affected by all the other atoms in molecular systems.
+  - The auto-regressive sampling for a molecule usually suffers from ‘early stopping’ problem. To be specific, the model tends to generate molecules with a small number of atoms (also called molecule size), thereby failing to capture the true distribution of atom numbers in drug-like molecules.
+
+
+
+
+**Contibution**:
+* Authors propose a diffusion model with decomposed priors for structure-based drug design, which **incorporates the natural decomposition of a ligand molecule into function-related regions**.
+* Authors **consider both atom and bond diffusion processes** in the model to simultaneously generate atoms and bonds for improving drug-likeness and synthesizability.
+* Authors design and incorporate several **guidance terms** in the decomposed generation process to improve the molecular validity.
+
+**Results**:
+Extensive experiments on CrossDocked2020 show that DecompDiff achieves SOTA performance in generating high-affinity molecules while maintaining proper molecular properties and conformational stability, with up to −8.39 Avg. Vina Dock score and 24.5% Success Rate. 
+<img width="1048" alt="image" src="https://github.com/IsXudongZhang/Papers-for-structure-based-molecular-generation/assets/105139522/aac6c35c-7e20-46e6-bca1-e99c59dde24c">
+
+[Go To Top](#top)
+
+<br>
