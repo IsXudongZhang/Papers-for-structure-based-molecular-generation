@@ -68,16 +68,15 @@ Extensive experiments on CrossDocked2020 show that DecompDiff achieves SOTA perf
     - The auto-regressive sampling for a molecule usually suffers from **‘early stopping’** problem. To be specific, the model tends to generate molecules with a small number of atoms (also called molecule size), thereby failing to capture the true distribution of atom numbers in drug-like molecules.
 
 
-
-
 **Contibution**:
-* Authors propose a diffusion model with decomposed priors for structure-based drug design, which **incorporates the natural decomposition of a ligand molecule into function-related regions**.
-* Authors **consider both atom and bond diffusion processes** in the model to simultaneously generate atoms and bonds for improving drug-likeness and synthesizability.
-* Authors design and incorporate several **guidance terms** in the decomposed generation process to improve the molecular validity.
+To tackle these significant limitations, Authors propose the target-aware molecular Diffusion model for Protein Binding (DiffBP).
+* Authors first analyze the problems emerging in autoregressive models from a physics and probabilistic perspective.
+* Motivated by these observations, authors propose DiffBP, which directly models the full atoms in targetaware molecule generation.
+* Delicately-designed procedures are established, considering molecules’ center of mass prediction, atom number distribution modeling and other aspects.
 
 **Results**:
-Extensive experiments on CrossDocked2020 show that DecompDiff achieves SOTA performance in generating high-affinity molecules while maintaining proper molecular properties and conformational stability, with up to −8.39 Avg. Vina Dock score and 24.5% Success Rate. 
-<img width="1048" alt="image" src="https://github.com/IsXudongZhang/Papers-for-structure-based-molecular-generation/assets/105139522/aac6c35c-7e20-46e6-bca1-e99c59dde24c">
+Experimentally, the proposed method shows competitive performance compared with prevailing works in terms of high affinity with proteins and appropriate molecule sizes as well as other drug properties such as drug-likeness of the generated molecules.
+<img width="855" alt="image" src="https://github.com/IsXudongZhang/Papers-for-structure-based-molecular-generation/assets/105139522/7f1e6086-afdb-4884-896d-a457758ae0fa">
 
 [Go To Top](#top)
 
