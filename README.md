@@ -6,6 +6,7 @@
 | ---- | ---- | ---- | ---- | ---- |
 | 2023 | arXiv | [PrefixMol: Target- and Chemistry-aware Molecule Design via Prefix Embedding](#1.) | [[paper]](https://arxiv.org/abs/2302.07120) | Controllable generation | 
 | 2023 | ICML | [DECOMPDIFF: Diffusion Models with Decomposed Priors for Structure-Based Drug Design](#2.) | [[paper]](https://openreview.net/forum?id=9qy9DizMlr) [[github]](https://github.com/bytedance/DecompDiff)  | Diffusion model | 
+| 2022 | arXiv | [DiffBP: Generative Diffusion of 3D Molecules for Target Protein Binding](#3.) | [[paper]]([https://openreview.net/forum?id=9qy9DizMlr](https://arxiv.org/abs/2211.11214))  | Diffusion model | 
 
 
 
