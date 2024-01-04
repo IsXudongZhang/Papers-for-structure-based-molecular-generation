@@ -59,13 +59,13 @@ Extensive experiments on CrossDocked2020 show that DecompDiff achieves SOTA perf
 **Motivation**:
 
 *  **The challenge of SBDD tasks**: 
- - The protein binding site as the conditional context is complicated. Not only do the 3D geometric structures of the target proteins influence the structure and property of the binding molecules, but also **other informative contexts should be considered for generating molecules with high affinities, such as the amino acid types**.
- - The desired distribution over molecular chemistry and coordinates has enormous support sets. Unlike the conformation generation task, the chemical formulas as 2D graph constraints are not known, so the sophisticated coupling of element types, continuous 3D coordinates, and **other chemical properties or geometries should be captured by a well-designed model**.
- - **Geometric symmetries of molecules** should be considered for generalization. In the physical 3D space, these symmetries include translations and rotations from the Euclidean group. In particular, if we perform these symmetry operations on a binding site, the generated molecules are expected to be rotated or translated in the same way.
+    - The protein binding site as the conditional context is complicated. Not only do the 3D geometric structures of the target proteins influence the structure and property of the binding molecules, but also **other informative contexts should be considered for generating molecules with high affinities, such as the amino acid types**.
+    - The desired distribution over molecular chemistry and coordinates has enormous support sets. Unlike the conformation generation task, the chemical formulas as 2D graph constraints are not known, so the sophisticated coupling of element types, continuous 3D coordinates, and **other chemical properties or geometries should be captured by a well-designed model**.
+    - **Geometric symmetries of molecules** should be considered for generalization. In the physical 3D space, these symmetries include translations and rotations from the Euclidean group. In particular, if we perform these symmetry operations on a binding site, the generated molecules are expected to be rotated or translated in the same way.
    
 *  **The disadvantage of auto-regressive methods**:
-  - The interactions among atoms in an entire molecule are global, leading to **the energy function pair-coupled among atoms**. With such energy-based consideration, the modeling of probability should be based on joint distributions, rather than sequentially conditional ones. In other words, each atom’s position and element type are affected by all the other atoms in molecular systems.
-  - The auto-regressive sampling for a molecule usually suffers from **‘early stopping’** problem. To be specific, the model tends to generate molecules with a small number of atoms (also called molecule size), thereby failing to capture the true distribution of atom numbers in drug-like molecules.
+    - The interactions among atoms in an entire molecule are global, leading to **the energy function pair-coupled among atoms**. With such energy-based consideration, the modeling of probability should be based on joint distributions, rather than sequentially conditional ones. In other words, each atom’s position and element type are affected by all the other atoms in molecular systems.
+    - The auto-regressive sampling for a molecule usually suffers from **‘early stopping’** problem. To be specific, the model tends to generate molecules with a small number of atoms (also called molecule size), thereby failing to capture the true distribution of atom numbers in drug-like molecules.
 
 
 
